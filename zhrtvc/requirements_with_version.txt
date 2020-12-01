@@ -4,7 +4,8 @@ aukit==1.4.4
 sounddevice==0.3.14
 webrtcvad==2.0.10
 tensorflow==1.15.2
-numpy==1.18.4
+numpy==1.19.3; platform_system == "Windows"
+numpy==1.19.4; platform_system != "Windows"
 matplotlib==2.2.3
 cycler==0.10.0
 phkit==0.2.4
